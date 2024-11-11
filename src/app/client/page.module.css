@@ -1,0 +1,56 @@
+.container{
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topTitle{
+     font-size: 32px; 
+  line-height: 48px; 
+  font-weight: 800; 
+  color: #171A1FFF
+}
+.topRight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.topBtn{
+ line-height: 22px; 
+  font-weight: 400; 
+  color: #FFFFFFFF; 
+  background: #4B7BECFF;
+  border: none; 
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input{
+     width: 213px; 
+  height: 36px; 
+  padding-left: 34px; 
+  padding-right: 12px; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #F3F4F6FF; 
+  border-radius: 4px; 
+  border-width: 0px; 
+  outline: none; 
+}
+.containerCardClient{
+    margin-top: 20px;
+   padding: 17px 10px;
+  background: #F1F5FEFF; 
+  border-radius: 4px;
+}
+.cardClientc{
+  margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    flex-wrap: wrap;
+}
